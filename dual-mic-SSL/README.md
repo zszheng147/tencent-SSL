@@ -117,3 +117,8 @@ I train the model for 100 epoch, and use MAE as metrics to evaluate. Result can 
 [2024-01-18 16:26:27,925][__main__][INFO] - Epoch 100: loss=7.7540
 [2024-01-18 16:26:46,483][__main__][INFO] - MAE: (tensor(6.0820, device='cuda:0'), tensor(5.6465, device='cuda:0'))
 ```
+
+## How to train
+```bash
+bash train.sh
+```

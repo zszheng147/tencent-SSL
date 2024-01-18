@@ -1,2 +1,110 @@
-[2024-01-18 16:36:25,251][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
-[2024-01-18 16:36:25,252][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+[2024-01-18 15:42:19,559][__main__][INFO] - Epoch 1: loss=27.5895
+[2024-01-18 15:42:49,756][__main__][INFO] - Epoch 2: loss=25.3604
+[2024-01-18 15:43:25,633][__main__][INFO] - Epoch 3: loss=22.5423
+[2024-01-18 15:43:42,612][__main__][INFO] - Epoch 4: loss=20.4148
+[2024-01-18 15:43:58,498][__main__][INFO] - Epoch 5: loss=19.2189
+[2024-01-18 15:44:17,662][__main__][INFO] - Epoch 6: loss=18.3993
+[2024-01-18 15:44:47,800][__main__][INFO] - Epoch 7: loss=17.6836
+[2024-01-18 15:45:04,151][__main__][INFO] - Epoch 8: loss=17.2984
+[2024-01-18 15:45:22,288][__main__][INFO] - Epoch 9: loss=16.8153
+[2024-01-18 15:45:42,602][__main__][INFO] - Epoch 10: loss=16.4964
+[2024-01-18 15:46:13,880][__main__][INFO] - MAE: (tensor(13.6406, device='cuda:0'), tensor(15.2969, device='cuda:0'))
+[2024-01-18 15:46:36,694][__main__][INFO] - Epoch 11: loss=16.1552
+[2024-01-18 15:46:55,984][__main__][INFO] - Epoch 12: loss=16.0380
+[2024-01-18 15:47:36,260][__main__][INFO] - Epoch 13: loss=15.6720
+[2024-01-18 15:48:24,612][__main__][INFO] - Epoch 14: loss=15.4074
+[2024-01-18 15:48:50,214][__main__][INFO] - Epoch 15: loss=15.0666
+[2024-01-18 15:49:14,411][__main__][INFO] - Epoch 16: loss=14.9032
+[2024-01-18 15:49:36,630][__main__][INFO] - Epoch 17: loss=14.5047
+[2024-01-18 15:50:05,022][__main__][INFO] - Epoch 18: loss=14.1792
+[2024-01-18 15:50:22,400][__main__][INFO] - Epoch 19: loss=13.7325
+[2024-01-18 15:50:39,302][__main__][INFO] - Epoch 20: loss=13.3767
+[2024-01-18 15:51:05,286][__main__][INFO] - MAE: (tensor(12.9082, device='cuda:0'), tensor(10.8027, device='cuda:0'))
+[2024-01-18 15:51:22,350][__main__][INFO] - Epoch 21: loss=12.8456
+[2024-01-18 15:51:42,489][__main__][INFO] - Epoch 22: loss=12.3675
+[2024-01-18 15:52:07,211][__main__][INFO] - Epoch 23: loss=12.2249
+[2024-01-18 15:52:26,182][__main__][INFO] - Epoch 24: loss=11.9331
+[2024-01-18 15:52:49,585][__main__][INFO] - Epoch 25: loss=11.7368
+[2024-01-18 15:53:08,832][__main__][INFO] - Epoch 26: loss=11.6172
+[2024-01-18 15:53:30,305][__main__][INFO] - Epoch 27: loss=11.4219
+[2024-01-18 15:54:02,831][__main__][INFO] - Epoch 28: loss=11.2575
+[2024-01-18 15:54:31,573][__main__][INFO] - Epoch 29: loss=11.1002
+[2024-01-18 15:54:58,818][__main__][INFO] - Epoch 30: loss=10.9718
+[2024-01-18 15:55:22,476][__main__][INFO] - MAE: (tensor(8.9395, device='cuda:0'), tensor(9.2871, device='cuda:0'))
+[2024-01-18 15:55:43,251][__main__][INFO] - Epoch 31: loss=10.7661
+[2024-01-18 15:56:01,856][__main__][INFO] - Epoch 32: loss=10.6286
+[2024-01-18 15:56:23,810][__main__][INFO] - Epoch 33: loss=10.4400
+[2024-01-18 15:56:41,647][__main__][INFO] - Epoch 34: loss=10.1838
+[2024-01-18 15:57:06,190][__main__][INFO] - Epoch 35: loss=10.1231
+[2024-01-18 15:57:23,150][__main__][INFO] - Epoch 36: loss=9.9828
+[2024-01-18 15:57:43,786][__main__][INFO] - Epoch 37: loss=9.8124
+[2024-01-18 15:58:08,697][__main__][INFO] - Epoch 38: loss=9.7314
+[2024-01-18 15:58:26,357][__main__][INFO] - Epoch 39: loss=9.4452
+[2024-01-18 15:58:44,147][__main__][INFO] - Epoch 40: loss=9.3284
+[2024-01-18 15:59:10,402][__main__][INFO] - MAE: (tensor(7.9570, device='cuda:0'), tensor(7.5684, device='cuda:0'))
+[2024-01-18 15:59:37,624][__main__][INFO] - Epoch 41: loss=9.2690
+[2024-01-18 15:59:57,415][__main__][INFO] - Epoch 42: loss=8.9655
+[2024-01-18 16:00:25,165][__main__][INFO] - Epoch 43: loss=8.7926
+[2024-01-18 16:01:00,719][__main__][INFO] - Epoch 44: loss=8.7570
+[2024-01-18 16:01:37,872][__main__][INFO] - Epoch 45: loss=8.7180
+[2024-01-18 16:01:54,388][__main__][INFO] - Epoch 46: loss=8.5895
+[2024-01-18 16:02:11,929][__main__][INFO] - Epoch 47: loss=8.6676
+[2024-01-18 16:02:30,799][__main__][INFO] - Epoch 48: loss=8.6213
+[2024-01-18 16:02:48,931][__main__][INFO] - Epoch 49: loss=8.5762
+[2024-01-18 16:03:07,764][__main__][INFO] - Epoch 50: loss=8.5587
+[2024-01-18 16:03:25,557][__main__][INFO] - MAE: (tensor(6.7695, device='cuda:0'), tensor(6.3770, device='cuda:0'))
+[2024-01-18 16:03:52,813][__main__][INFO] - Epoch 51: loss=8.4258
+[2024-01-18 16:04:21,322][__main__][INFO] - Epoch 52: loss=8.3683
+[2024-01-18 16:04:51,059][__main__][INFO] - Epoch 53: loss=8.3820
+[2024-01-18 16:05:07,687][__main__][INFO] - Epoch 54: loss=8.3499
+[2024-01-18 16:05:26,841][__main__][INFO] - Epoch 55: loss=8.2894
+[2024-01-18 16:05:53,248][__main__][INFO] - Epoch 56: loss=8.2515
+[2024-01-18 16:06:19,593][__main__][INFO] - Epoch 57: loss=8.2447
+[2024-01-18 16:06:59,615][__main__][INFO] - Epoch 58: loss=8.1851
+[2024-01-18 16:07:30,275][__main__][INFO] - Epoch 59: loss=8.1733
+[2024-01-18 16:07:49,756][__main__][INFO] - Epoch 60: loss=8.1236
+[2024-01-18 16:08:13,722][__main__][INFO] - MAE: (tensor(6.3730, device='cuda:0'), tensor(6.0898, device='cuda:0'))
+[2024-01-18 16:08:53,163][__main__][INFO] - Epoch 61: loss=8.0544
+[2024-01-18 16:09:17,353][__main__][INFO] - Epoch 62: loss=7.9635
+[2024-01-18 16:09:41,919][__main__][INFO] - Epoch 63: loss=8.0338
+[2024-01-18 16:10:00,102][__main__][INFO] - Epoch 64: loss=7.9796
+[2024-01-18 16:10:34,727][__main__][INFO] - Epoch 65: loss=7.9358
+[2024-01-18 16:10:55,861][__main__][INFO] - Epoch 66: loss=7.9446
+[2024-01-18 16:11:20,837][__main__][INFO] - Epoch 67: loss=7.9225
+[2024-01-18 16:11:59,673][__main__][INFO] - Epoch 68: loss=7.9770
+[2024-01-18 16:12:21,222][__main__][INFO] - Epoch 69: loss=7.9173
+[2024-01-18 16:12:39,151][__main__][INFO] - Epoch 70: loss=7.9489
+[2024-01-18 16:13:11,353][__main__][INFO] - MAE: (tensor(5.5879, device='cuda:0'), tensor(6.3027, device='cuda:0'))
+[2024-01-18 16:13:47,928][__main__][INFO] - Epoch 71: loss=7.9710
+[2024-01-18 16:14:10,953][__main__][INFO] - Epoch 72: loss=7.8687
+[2024-01-18 16:14:31,626][__main__][INFO] - Epoch 73: loss=7.9747
+[2024-01-18 16:15:06,841][__main__][INFO] - Epoch 74: loss=7.8469
+[2024-01-18 16:15:48,138][__main__][INFO] - Epoch 75: loss=7.9458
+[2024-01-18 16:16:05,252][__main__][INFO] - Epoch 76: loss=8.0030
+[2024-01-18 16:16:33,318][__main__][INFO] - Epoch 77: loss=7.8233
+[2024-01-18 16:16:52,355][__main__][INFO] - Epoch 78: loss=7.8728
+[2024-01-18 16:17:15,164][__main__][INFO] - Epoch 79: loss=7.8489
+[2024-01-18 16:17:35,760][__main__][INFO] - Epoch 80: loss=7.8024
+[2024-01-18 16:18:08,233][__main__][INFO] - MAE: (tensor(6.2207, device='cuda:0'), tensor(6.3320, device='cuda:0'))
+[2024-01-18 16:18:23,488][__main__][INFO] - Epoch 81: loss=7.7505
+[2024-01-18 16:18:44,475][__main__][INFO] - Epoch 82: loss=7.8518
+[2024-01-18 16:19:07,565][__main__][INFO] - Epoch 83: loss=7.8927
+[2024-01-18 16:19:36,383][__main__][INFO] - Epoch 84: loss=7.8166
+[2024-01-18 16:19:58,401][__main__][INFO] - Epoch 85: loss=7.8657
+[2024-01-18 16:20:25,820][__main__][INFO] - Epoch 86: loss=7.7521
+[2024-01-18 16:20:45,968][__main__][INFO] - Epoch 87: loss=7.8920
+[2024-01-18 16:21:08,001][__main__][INFO] - Epoch 88: loss=7.7811
+[2024-01-18 16:21:32,866][__main__][INFO] - Epoch 89: loss=7.8745
+[2024-01-18 16:22:00,497][__main__][INFO] - Epoch 90: loss=7.9430
+[2024-01-18 16:22:25,711][__main__][INFO] - MAE: (tensor(6.2422, device='cuda:0'), tensor(5.6133, device='cuda:0'))
+[2024-01-18 16:22:54,443][__main__][INFO] - Epoch 91: loss=7.8436
+[2024-01-18 16:23:26,013][__main__][INFO] - Epoch 92: loss=7.8519
+[2024-01-18 16:23:44,365][__main__][INFO] - Epoch 93: loss=7.8575
+[2024-01-18 16:24:10,332][__main__][INFO] - Epoch 94: loss=7.8537
+[2024-01-18 16:24:32,502][__main__][INFO] - Epoch 95: loss=7.8565
+[2024-01-18 16:24:54,124][__main__][INFO] - Epoch 96: loss=7.8184
+[2024-01-18 16:25:16,829][__main__][INFO] - Epoch 97: loss=7.8639
+[2024-01-18 16:25:41,448][__main__][INFO] - Epoch 98: loss=7.7560
+[2024-01-18 16:26:07,286][__main__][INFO] - Epoch 99: loss=7.8561
+[2024-01-18 16:26:27,925][__main__][INFO] - Epoch 100: loss=7.7540
+[2024-01-18 16:26:46,483][__main__][INFO] - MAE: (tensor(6.0820, device='cuda:0'), tensor(5.6465, device='cuda:0'))
