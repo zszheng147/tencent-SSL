@@ -1,0 +1,16 @@
+common:
+  batch_size: 64
+  num_workers: 4
+  
+  max_epoch: 20
+  mode: 'train'
+
+data:
+  train_sound_path: /hpc_stor03/sjtu_home/zhisheng.zheng/tencent/librispeech/dev_clean.tsv
+  eval_sound_path: /hpc_stor03/sjtu_home/zhisheng.zheng/tencent/librispeech/test_clean.tsv
+  reverb_train_json: /hpc_stor03/sjtu_home/zhisheng.zheng/tencent/reverbs/train.json
+  reverb_eval_json: /hpc_stor03/sjtu_home/zhisheng.zheng/tencent/reverbs/eval.json
+  rir_type: reverb
+
+optim:
+  lr: 2e-4
