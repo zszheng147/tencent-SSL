@@ -37,7 +37,7 @@ In total, generate 3,000 rirs for training, and 200 rirs for eval.
 Please ref to FRA-RIR/test_samples.py in this repo to automatically generate.
 
 ## Model Architecture
-Use 2D convultion to do downsample, and employ 8-layer conformer as backbone architecture. The speech tokens will be concatenated with two \[CLS\] tokens before feeding into conformer. The \[CLS\] token is designed to predict the two azimuths.
+Use 2D convultion to do downsample, and employ 8-layer conformer as backbone architecture. The speech tokens will be concatenated with two \[CLS\] tokens before feeding into conformer. The two \[CLS\] tokens are designed to predict the two azimuths.
 
 ```
 SSLModel(
